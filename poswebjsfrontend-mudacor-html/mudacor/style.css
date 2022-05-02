@@ -1,0 +1,42 @@
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colored-div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.btn{
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    margin: 5px;
+}
+
+.btn:hover {
+  background-color: gray;
+  color:white;
+  cursor: pointer;
+}
+
+input[type="text"]{
+    margin: 5px;
+}
